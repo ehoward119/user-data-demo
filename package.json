@@ -1,0 +1,21 @@
+{
+  "name": "user-data-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:reubenae/user-data-demo.git",
+  "author": "Reuben Evans <reuben_evans@intuit.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "dependencies": {
+    "json-beautify": "^1.1.1",
+    "lite-server": "^2.5.4",
+    "moment": "^2.27.0",
+    "user-data-for-fraud-prevention": "^1.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^16.5.2",
+    "watchify": "^3.11.1"
+  }
+}
