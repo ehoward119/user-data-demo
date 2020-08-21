@@ -6,7 +6,7 @@
   "author": "Reuben Evans <reuben_evans@intuit.com>",
   "license": "MIT",
   "scripts": {
-    "start": "lite-server"
+    "start": "lite-server && watchify index.js -o simplebundle.js"
   },
   "dependencies": {
     "json-beautify": "^1.1.1",
