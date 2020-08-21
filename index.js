@@ -2,9 +2,6 @@ var userDataFetcher = require('user-data-for-fraud-prevention');
 var beautify = require("json-beautify");
 var {fraudPreventionHeadersEnum, getFraudPreventionHeaders} = userDataFetcher;
 
-var enumDisplayElement = document.getElementById('enumDisplay');
-enumDisplayElement.innerText = beautify(fraudPreventionHeadersEnum, null, 4, 100);
-
 function handleOnFetch(response) {
     var tableBody = document.getElementById('tableBody');
     response.headers.forEach((value, key) => {
@@ -17,5 +14,7 @@ function handleOnFetch(response) {
         row.appendChild(valueElement);
         tableBody.appendChild(row);
     });
+    var enumDisplayElement = document.getElementById('enumDisplay');
+    enumDisplayElement.innerText = beautify(fraudPreventionHeadersEnum, null, 4, 100);
 };
 getFraudPreventionHeaders().then(handleOnFetch);

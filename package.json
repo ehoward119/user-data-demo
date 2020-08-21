@@ -6,13 +6,14 @@
   "author": "Reuben Evans <reuben_evans@intuit.com>",
   "license": "MIT",
   "scripts": {
-    "start": "lite-server && watchify index.js -o simplebundle.js"
+    "start": "lite-server",
+    "demo": "watchify index.js -o simplebundle.js"
   },
   "dependencies": {
     "json-beautify": "^1.1.1",
     "lite-server": "^2.5.4",
     "moment": "^2.27.0",
-    "user-data-for-fraud-prevention": "^1.0.1"
+    "user-data-for-fraud-prevention": "1.0.2"
   },
   "devDependencies": {
     "browserify": "^16.5.2",

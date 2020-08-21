@@ -3971,10 +3971,10 @@ use@^3.1.0:
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/use/-/use-3.1.1.tgz#d50c8cac79a19fbc20f2911f56eb973f4e10070f"
   integrity sha1-1QyMrHmhn7wg8pEfVuuXP04QBw8=
 
-user-data-for-fraud-prevention@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/user-data-for-fraud-prevention/-/user-data-for-fraud-prevention-1.0.1.tgz#a9ef4cc2b915aff9f3e76354044bab008194fccb"
-  integrity sha1-qe9MwrkVr/nz52NUBEurAIGU/Ms=
+user-data-for-fraud-prevention@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/user-data-for-fraud-prevention/-/user-data-for-fraud-prevention-1.0.2.tgz#fd2719418b1dc0cda4dc82e656601dcb425de8f0"
+  integrity sha1-/ScZQYsdwM2k3ILmVmAdy0Jd6PA=
   dependencies:
     "@babel/preset-env" "^7.10.4"
     moment "^2.24.0"
