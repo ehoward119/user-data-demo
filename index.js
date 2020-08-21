@@ -17,7 +17,5 @@ function handleOnFetch(response) {
         row.appendChild(valueElement);
         tableBody.appendChild(row);
     });
-    var headersDisplayElement = document.getElementById('responseDisplay');
-    headersDisplayElement.innerText = beautify(response, null, 4, 100);
 };
 getFraudPreventionHeaders().then(handleOnFetch);
